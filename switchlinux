@@ -3,5 +3,5 @@ Xephyr -fullscreen -dpi 125 :1 &
 unset HOME
 export HOME=/root
 export DISPLAY=:1
-sudo  chroot  /media/yiyi/SD/VM/"$1"  /desktop  &
+sudo  chroot "$1"  /desktop  &
 
