@@ -6,9 +6,9 @@ Download the three bash script files : mountlinux,startlinux and switchlinux ,th
 <br>How to use<br>
 To use multilinux, you need install Xephyr to you system.You also need to create a bash file named 'desktop' in other OSes  you want to run.You should store it in the OS's '/'.This file should include command to start GUI in this OS.Like 'dbus-launch mate-session' 'startkde' 'gnome-session'
 <br><br>
-<br>mountlinux linuxroot<br>
-<br>Use mountlinux to initialize a Linux OS<br>
-<br>startlinx linuxroot :Display Number<br>
-<br>startlinux allows you to run another Linux OS in window.Just Like virtualmachine.In order to run GUI,startlinux needs you to specify a Xwindow display number.<br>
-<br>switchlinux linuxroot<br>
-<br>switch to another Linux system, use 'killall Xephyr' to exit. <br>
+<br>mountlinux linuxroot
+<br>Use mountlinux to initialize a Linux OS
+<br>startlinx linuxroot :Display Number
+<br>startlinux allows you to run another Linux OS in window.Just Like virtualmachine.In order to run GUI,startlinux needs you to specify a Xwindow display number.
+<br>switchlinux linuxroot
+<br>switch to another Linux system, use 'killall Xephyr' to exit. 
