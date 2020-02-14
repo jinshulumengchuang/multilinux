@@ -1,4 +1,4 @@
-# multilinux
+# Multilinux
 Multlinux allows you to run multiple Linux OSes at one time.It uses chroot feature in Linux. Multilinux allows 
 you to run multiple Linux OSes with only one kernel,all linux OSes will share hardware resouces and use them directly.  
 <br>Installation<br>
