@@ -5,5 +5,5 @@ export HOME=/root
 export DISPLAY="$2"
 echo 'GUI Will boot in 2 seconds,Plase resize X Window'
 sleep 2
-sudo chroot  /media/yiyi/SD/VM/"$1"  /desktop  &
-sudo chroot  /media/yiyi/SD/VM/"$1"
+sudo chroot  "$1"  /desktop  &
+sudo chroot  "$1"
