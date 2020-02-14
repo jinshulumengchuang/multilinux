@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo mount --bind  "$1"   "$1"
+sudo mount --bind  /dev "$1"/dev
+sudo mount -t proc /proc "$1"/proc
+sudo mount --rbind /sys "$1"/sys
+sudo mount --make-rslave "$1"/sys
+sudo mount -t tmpfs tmp "$1"/tmp
+sudo mount --bind /run "$1"/run
+sudo mount --make-rslave "$1"/run
+sudo mount -t devpts devpts "$1"/dev/pts
