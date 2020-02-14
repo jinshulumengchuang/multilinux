@@ -1,5 +1,5 @@
 #!/bin/bash
- Xephyr :1 -resizeable -dpi 50 "$2" &
+Xephyr  -resizeable -dpi 50 "$2" &
 unset HOME
 export HOME=/root
 export DISPLAY="$2"
