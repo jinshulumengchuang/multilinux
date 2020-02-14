@@ -9,6 +9,6 @@ To use multilinux, you need install Xephyr to you system.You also need to create
 <br>mountlinux linuxroot
 <br>Use mountlinux to initialize a Linux OS
 <br>startlinx linuxroot :Display Number
-<br>startlinux allows you to run another Linux OS in window.Just Like virtualmachine.In order to run GUI,startlinux needs you to specify a Xwindow display number.
+<br>startlinux allows you to run another Linux OS in window.Just Like a  virtual machine.In order to run GUI,startlinux needs you to specify a Xwindow display number.
 <br>switchlinux linuxroot
 <br>switch to another Linux system, use 'killall Xephyr' to exit. 
