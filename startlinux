@@ -1,0 +1,9 @@
+#!/bin/bash
+ Xephyr :1 -resizeable -dpi 50 "$2" &
+unset HOME
+export HOME=/root
+export DISPLAY="$2"
+echo 'GUI Will boot in 2 seconds,Plase resize X Window'
+sleep 2
+sudo chroot  /media/yiyi/SD/VM/"$1"  /desktop  &
+sudo chroot  /media/yiyi/SD/VM/"$1"
